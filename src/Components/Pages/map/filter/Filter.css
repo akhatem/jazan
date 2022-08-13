@@ -1,0 +1,28 @@
+.filter {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
+
+.filter h5 {
+  margin-bottom: 0;
+  background-color: #92ba40;
+  padding: 10px 15px;
+  color: #fff;
+}
+.filter ul {
+  list-style: none;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #92ba40;
+  padding: 0;
+}
+.filter ul li {
+  border-bottom: 1px solid #92ba40;
+  cursor: pointer;
+}
+
+.filter .tab.active {
+  background-color: #92ba40;
+  color: #fff;
+}

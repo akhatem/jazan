@@ -1,0 +1,55 @@
+.data-table {
+    width: 90%;
+    border: 1px solid rgba(34,36,38,.15);
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.data-table thead tr:first-child {
+    width: 100%;
+}
+
+.data-table thead tr:first-child .search-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.data-table thead tr:first-child .search-box .input input {
+    height: 30px;
+    padding: 0 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.data-table thead tr:first-child .search-box .icon {
+    background-color: #00cec9;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.data-table thead tr:last-child {
+    background-color:#00cec9;
+    color: #fff;
+}
+
+.data-table thead tr:last-child th {
+    padding: 18px 12px;
+}
+
+.table>:not(:first-child) {
+    border-top: none;
+}
+
+.data-table tbody tr {
+    transition: 0.3s;
+}
+
+.data-table tbody tr:hover {
+    background-color: #b9c3c7;
+}
+
+.data-table tfoot tr td nav {
+    display: flex;
+    justify-content: flex-end;
+}

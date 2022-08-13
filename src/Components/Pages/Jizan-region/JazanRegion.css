@@ -1,0 +1,85 @@
+.city-info .city-details {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+
+.city-info .city-details .img-city {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+
+}
+
+.city-info .city-details .img-city img {
+    width: 100%;
+}
+
+.city-info .city-details .text-city {
+    margin: 12px auto 0 auto;
+}
+
+.city-info .city-details .text-city h6 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.city-info .city-details .text-city p {
+    margin: 0;
+    color:#8c8c8c;
+    font-weight: 700;
+}
+
+.city-info .people-details h4 {
+    color: #54595F;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.city-info .people-details .Circle-two {
+    width: 300px;
+    height: 300px;
+}
+
+
+.city-info .people-details .table-numbers table {
+    width: 300px;
+}
+
+.city-info .people-details .table-numbers .name-head, 
+.city-info .people-details .table-numbers .number-head {
+    background-color:#61CE70;
+    border: 1px solid #54595F;
+    padding: 10px;
+    color: #54595F;
+    font-weight: 600;
+}
+
+
+.city-info .people-details .table-numbers table tbody tr td {
+    padding: 10px;
+    font-weight: 600;
+    border: 1px solid #54595F;
+    color: #54595F;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+    .city-info .city-details {
+        margin: 0 auto;
+    }
+    .city-info .people-details h4 {
+        text-align: center;
+        margin: 40px 0;
+    }
+    .city-info .people-details .Circle-two {
+        margin: 0 auto;
+        width: 280px;
+        height: 280px;
+    }
+    .city-info .people-details .table-numbers table  {
+        margin: 0 auto;
+    }
+}

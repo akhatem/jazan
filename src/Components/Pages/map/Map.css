@@ -1,0 +1,28 @@
+.img-container.map-section {
+  height: 700px;
+  background-position: center;
+  background-size: 100% 100%;
+  padding: 0;
+}
+
+.img-container .land {
+  transform: translateY(100px);
+  position: relative;
+  width: clamp(250px, 60vw, 800px);
+  /* z-index: 9999; */
+}
+
+.img-container .land .one {
+  width: 100%;
+}
+
+/* 539px */
+
+.img-container .land .two {
+  width: 25%;
+  position: absolute;
+  bottom: 19%;
+  left: -22%;
+}
+
+/* 150px */

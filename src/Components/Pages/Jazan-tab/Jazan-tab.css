@@ -1,0 +1,198 @@
+.tab_head {
+  margin: 2rem auto;
+  width: 190px;
+  border-left: 3px solid #000;
+  color: #61ce70;
+  font-size: 40px;
+  font-weight: bold;
+  overflow: hidden;
+  transition: 0.7s linear;
+  animation: head-tab 4s linear infinite;
+  animation-delay: 2s;
+  white-space: nowrap;
+}
+.tab_head-ProvincesTab {
+  margin: 2rem auto;
+  width: 330px;
+  border-left: 3px solid #000;
+  color: #61ce70;
+  font-size: 40px;
+  font-weight: bold;
+  overflow: hidden;
+  transition: 0.7s linear;
+  animation: head-tab-provinces 4s linear infinite;
+  animation-delay: 2s;
+  white-space: nowrap;
+}
+.tab_head-Municipalities {
+  margin: 2rem auto;
+  width: 280px;
+  border-left: 3px solid #000;
+  color: #61ce70;
+  font-size: 40px;
+  font-weight: bold;
+  overflow: hidden;
+  transition: 0.7s linear;
+  animation: head-tab-Municipalities 4s linear infinite;
+  animation-delay: 2s;
+  white-space: nowrap;
+}
+.tab .tab_head h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.img-jazan {
+  cursor: pointer;
+  transition: all 500ms;
+}
+.img-jazan:hover {
+  transform: translateY(-5px);
+}
+@keyframes head-tab {
+  0%,
+  100% {
+    width: 0;
+  }
+  50% {
+    width: 190px;
+  }
+  75% {
+    width: 190px;
+  }
+}
+@keyframes head-tab-provinces {
+  0%,
+  100% {
+    width: 0;
+  }
+  50% {
+    width: 330px;
+  }
+  75% {
+    width: 330px;
+  }
+}
+@keyframes head-tab-Municipalities {
+  0%,
+  100% {
+    width: 0;
+  }
+  50% {
+    width: 280px;
+  }
+  75% {
+    width: 280px;
+  }
+}
+/* .dropdown-menu.show {
+  display: flex !important;
+} */
+.d-grid-ProvincesTab {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 10px;
+}
+.d-grid-ProvincesTab span {
+  padding: 15px 0px;
+  background-color: #61ce70;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: #fff;
+  transition: all 200ms;
+  text-align: center;
+}
+.d-grid-ProvincesTab span:hover {
+  background-color: #6ec1e4;
+}
+.last-span span {
+  padding: 15px 0px;
+  background-color: #61ce70;
+  border-radius: 8px;
+  color: #fff;
+  transition: all 200ms;
+  width: 30%;
+  text-align: center;
+}
+.last-span span:hover {
+  background-color: #6ec1e4;
+}
+.d-grid-municipalities {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.d-grid-municipalities span {
+  text-align: center;
+  padding: 10px 15px;
+  background-color: #61ce70;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  color: #fff;
+  transition: all 200ms;
+  width: 48%;
+}
+.d-grid-municipalities span:hover {
+  background-color: #6ec1e4;
+}
+/* .items-grid {
+  padding: 10px 27px !important;
+} */
+.text-jazan {
+  color: #61ce70;
+  font-weight: bold;
+}
+
+.tab-grid,
+.ProvincesTab-list {
+  gap: 10px;
+}
+
+.ProvincesTab-list span {
+  max-width: 30%;
+}
+
+.tab-grid span,
+.ProvincesTab-list span {
+  background-color: #61ce70;
+  border-radius: 0.3rem;
+  color: #fff;
+  width: calc(100% / 5 - 8px);
+
+  flex-grow: 1;
+}
+
+.tab-grid span:nth-child(1),
+.tab-grid span:nth-child(2),
+.tab-grid span:nth-child(3),
+.tab-grid span:nth-child(4),
+.tab-grid span:nth-child(13),
+.tab-grid span:nth-child(14),
+.tab-grid span:nth-child(15),
+.tab-grid span:nth-child(16),
+.tab-grid span:nth-child(17),
+.tab-grid span:nth-child(18),
+.tab-grid span:nth-child(19),
+.tab-grid span:nth-child(20) {
+  width: calc(100% / 4 - 10px);
+}
+
+.tab-grid span:nth-child(5),
+.tab-grid span:nth-child(6) {
+  width: calc(100% / 2 - 5px);
+}
+
+.tab-grid span:nth-child(7),
+.tab-grid span:nth-child(8),
+.tab-grid span:nth-child(9),
+.tab-grid span:nth-child(10),
+.tab-grid span:nth-child(11),
+.tab-grid span:nth-child(12),
+.tab-grid span:nth-child(21),
+.tab-grid span:nth-child(22),
+.tab-grid span:nth-child(23),
+.tab-grid span:nth-child(24),
+.tab-grid span:nth-child(25),
+.tab-grid span:nth-child(26) {
+  width: calc(100% / 6 - 10px);
+}
