@@ -4,33 +4,36 @@
 
 .box .pins-img {
   position: relative;
-  cursor: pointer;
+  cursor: cell;
 }
 
 .box .pins-img::before {
   content: attr(data-name);
-  position: absolute;
-  top: 26%;
-  left: -123%;
+  transform: translateX(-90%);
   background-color: #b20000;
   color: #fff;
   padding: 4px 5px;
+  height: auto;
   width: auto;
-  font-size: 15px;
+  font-size: 13px;
   height: auto;
   text-align: center;
   border-radius: 10px;
   font-weight: 600;
+  white-space: nowrap;
   opacity: 1;
   transition: all 0.3s ease;
+  /* position: absolute; */
 }
 
-/* .box:hover .pins-img::before {
-  opacity: 1;
-} */
+p.name{
+  font-size: 14px;
+}
 
 .box .pins-img img {
-  width: 40px;
+  position: relative;
+  float: right;
+  width: 30px;
 }
 
 .box .hanging-poles .bar-one,
@@ -46,14 +49,14 @@
 
 .box .hanging-poles .bar-one {
   width: 59px;
-  top: 0%;
-  left: 6%;
+  top: -20%;
+  left: 67%;
   transform: rotate(-61deg);
 }
 
 .box .hanging-poles .bar-two {
-  top: -51%;
-  left: 116%;
+  top: -88%;
+  left: 105%;
   width: 181px;
 }
 
@@ -65,9 +68,9 @@
 
 .box .data {
   position: absolute;
-  top: -462%;
-  left: 130%;
-  width: 250px;
+  top: -600%;
+  left: 85%;
+  width: 240px;
   padding-bottom: 10px;
   height: auto;
   z-index: 9999;
@@ -87,7 +90,7 @@
   color: #fff;
   text-align: center;
   padding: 6px 0;
-  font-size: 22px;
+  font-size: 16px;
   margin: 0;
 }
 
@@ -124,86 +127,86 @@
 /* location pins in map */
 
 .box.box-1 {
-  top: 13%;
-  left: 18%;
+  top: 14%;
+  left: 11%;
 }
 
 .box.box-2 {
-  top: 28%;
-  left: 28%;
+  top: 29%;
+  left: 14%;
 }
 
 .box.box-3 {
   top: 40%;
-  left: 31%;
+  left: 32%;
 }
 
 .box.box-4 {
-  top: 48%;
-  left: 35%;
+  top: 54%;
+  left: 32%;
 }
 
 .box.box-5 {
-  top: 60%;
-  left: 42%;
+  top: 76%;
+  left: 53%;
 }
 
 .box.box-6 {
-  top: 84%;
+  top: 90%;
   left: 55%;
 }
 
 .box.box-7 {
-  top: 75%;
-  left: 82%;
+  top: 72%;
+  left: 70%;
 }
 
 .box.box-8 {
-  top: 65%;
-  left: 81%;
+  top: 63%;
+  left: 70%;
 }
 
 .box.box-9 {
-  top: 56%;
-  left: 78%;
+  top: 50%;
+  left: 69%;
 }
 
 .box.box-10 {
-  top: 47%;
-  left: 90%;
-}
-
-.box.box-11 {
-  top: 28%;
+  top: 36%;
   left: 71%;
 }
 
+.box.box-11 {
+  top: 23%;
+  left: 56%;
+}
+
 .box.box-12 {
-  top: 30%;
-  left: 60%;
+  top: 34%;
+  left: 44%;
 }
 
 .box.box-13 {
-  top: 38%;
-  left: 63%;
+  top: 44%;
+  left: 58%;
 }
 
 .box.box-14 {
-  top: 46%;
-  left: 55%;
+  top: 48%;
+  left: 51%;
 }
 
 .box.box-15 {
   top: 56%;
-  left: 55%;
+  left: 49%;
 }
 
 .box.box-16 {
-  top: 66%;
+  top: 68%;
   left: 55%;
 }
 
 .box.box-17 {
-  top: 58%;
-  left: -15%;
+  top: 60%;
+  left: -19%;
 }

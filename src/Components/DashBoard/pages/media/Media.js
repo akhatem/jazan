@@ -43,19 +43,19 @@ const Media = () => {
   // }, []);
   return (
     <>
-      <h2>خريطة جازان</h2>
+      <h2>المكتبة الإعلامية</h2>
       <form className="form">
         <div class="mb-3">
           <label for="formFile" class="form-label">
-            Default file input example
+            اختر صورة
           </label>
           <input class="form-control" type="file" id="formFile" />
         </div>
         <div>
           <input
-            class="form-control"
+            class="form-control mb-3"
             type="text"
-            placeholder="Default input"
+            placeholder="اختر عنوان"
             aria-label="default input example"
           />
         </div>
@@ -64,8 +64,8 @@ const Media = () => {
       <table className="table  table-centers">
         <thead>
           <tr>
-            <th scope="col">رقم </th>
-            <th scope="col">اسم الصفحة</th>
+            <th scope="col">رقم</th>
+            <th scope="col">العنوان</th>
             <th scope="col">الصورة</th>
             <th scope="col" className="icons-edits">
               <ul>

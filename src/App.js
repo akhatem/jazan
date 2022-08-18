@@ -13,6 +13,7 @@ import CentersSidebar from './Components/Pages/jazancomponents/CentersSidebar';
 import Dashboard from './Components/DashBoard/dashboard/Dashboard';
 import MediaLibrary from './Components/Pages/Media-Library/MediaLibrary';
 
+
 const App = () => {
   const [token, settoken] = useState('');
 
@@ -31,7 +32,7 @@ const App = () => {
         <Route path="/centers" element={<CentersSidebar />} />
         <Route path="/login" element={<Login setToken={settoken} />} />
         <Route
-          path="/cPanel/*"
+          path="/cpanel/*"
           element={<Dashboard token={token} setToken={settoken} />}
         />
       </Routes>

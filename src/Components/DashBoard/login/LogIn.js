@@ -40,7 +40,7 @@ const LogIn = ({ setToken }) => {
     <div>
       <div className="login-content">
         <form onSubmit={sumbitHandler}>
-          <h2 className="title">لوحة التحكم للجازان</h2>
+          <h2 className="title">لوحة التحكم</h2>
           <div className="input-div one">
             <div className="i">
               <i className="fas fa-user"></i>
